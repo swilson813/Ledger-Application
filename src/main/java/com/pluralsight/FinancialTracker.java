@@ -141,12 +141,25 @@ public class FinancialTracker {
             boolean running = true;
             while (running) {
                 System.out.println("Reports");
+                break;
                 System.out.println("Choose an option:");
+                break;
+
                 System.out.println("1) Month To Date");
+                break;
+
                 System.out.println("2) Previous Month");
+                break;
+
                 System.out.println("3) Year To Date");
+                break;
+
                 System.out.println("4) Previous Year");
+                break;
+
                 System.out.println("5) Search by Vendor");
+                break;
+
                 System.out.println("0) Back");
 
                 String input = scanner.nextLine().trim();
@@ -155,19 +168,24 @@ public class FinancialTracker {
                     case "1":
                         // Generate a report for all transactions within the current month,
                         // including the date, vendor, and amount for each transaction.
+                        MonthToDate;
+                        break;
                     case "2":
-                        // Generate a report for all transactions within the previous month,
-                        // including the date, vendor, and amount for each transaction.
+                        PreviousMonth;
+                        break;
+
                     case "3":
-                        // Generate a report for all transactions within the current year,
-                        // including the date, vendor, and amount for each transaction.
+                        YearToDate;
+                        break;
 
                     case "4":
-                        // Generate a report for all transactions within the previous year,
-                        // including the date, vendor, and amount for each transaction.
+                        PreviousYear;
+                        break;
+
                     case "5":
-                        // Prompt the user to enter a vendor name, then generate a report for all transactions
-                        // with that vendor, including the date, vendor, and amount for each transaction.
+                        SearchByVendor;
+                        break;
+                        
                     case "0":
                         running = false;
                     default:
