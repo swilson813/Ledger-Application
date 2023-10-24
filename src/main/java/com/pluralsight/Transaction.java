@@ -22,6 +22,7 @@ public class Transaction {
 
 
     }
+
     public LocalDate getDate() {
         return date;
     }
@@ -66,10 +67,9 @@ public class Transaction {
     }
 
 
-
+}
 
         }
 
-    }
 }
 

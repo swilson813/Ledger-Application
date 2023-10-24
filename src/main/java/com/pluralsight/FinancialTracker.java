@@ -8,10 +8,12 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class FinancialTracker {
@@ -71,12 +73,46 @@ public class FinancialTracker {
             // If any errors occur, an appropriate error message should be displayed.
         }
 
+        String dateInput;
+        String timeInput;
+
         private static void addDeposit(Scanner scanner) {
             // This method should prompt the user to enter the date, time, vendor, and amount of a deposit.
             // The user should enter the date and time in the following format: yyyy-MM-dd HH:mm:ss
             // The amount should be a positive number.
             // After validating the input, a new `Deposit` object should be created with the entered values.
             // The new deposit should be added to the `transactions` ArrayList.
+            System.out.println("Enter the date");
+            String dateInput = scanner.nextLine();
+            LocalDate date = LocalDate.parse(dateInput, DateTimeFormatter.ofPattern());
+            System.out.println("Enter the time");
+            String timeInput = scanner.nextLine();
+            LocalTime time = LocalTime.parse(timeInput);
+            System.out.println("Enter the vendor");
+            String vendor = scanner.nextLine();
+            System.out.println("Enter the amount");
+            double amount = Double.parseDouble(scanner.nextLine());
+            Transaction transaction = new Transaction(date, time, vendor, amount);
+            //transactions.add(deposit);?????
+
+            System.out.println(=========================);
+
+            System.out.println("Deposit was successfully added");
+            System.out.println("Would that be all? (Y/N): ");
+            String response = scanner.nextLine();
+
+            try {
+                (BufferedReader reader = new BufferedReader();
+                System.out.println("Please enter no to exit");
+                response = vendor.replace();
+                if (response.equalsIgnoreCase(String "N"))
+                    System.out.println("Goodbye for now! ");
+
+            }
+        catch ()
+
+
+
         }
 
         private static void addPayment(Scanner scanner) {
@@ -164,10 +200,12 @@ public class FinancialTracker {
 
                 String input = scanner.nextLine().trim();
 
+                // Generate a report for all transactions within the current month,
+                // including the date, vendor, and amount for each transaction.
+
                 switch (input) {
                     case "1":
-                        // Generate a report for all transactions within the current month,
-                        // including the date, vendor, and amount for each transaction.
+
                         MonthToDate;
                         break;
                     case "2":
@@ -185,7 +223,7 @@ public class FinancialTracker {
                     case "5":
                         SearchByVendor;
                         break;
-                        
+
                     case "0":
                         running = false;
                     default:
@@ -199,9 +237,17 @@ public class FinancialTracker {
         private static void filterTransactionsByDate(LocalDate startDate, LocalDate endDate) {
             // This method filters the transactions by date and prints a report to the console.
             // It takes two parameters: startDate and endDate, which represent the range of dates to filter by.
+
+            //Returns a product whose price between start date and end date
+            List<Transaction> findByDateCreatedBetween(LocalDate startDate, LocalDate endDate);
+
             // The method loops through the transactions list and checks each transaction's date against the date range.
             // Transactions that fall within the date range are printed to the console.
             // If no transactions fall within the date range, the method prints a message indicating that there are no results.
+            System.out.println("Welcome to Month by Date!");
+
+            //Prompt user for inputs
+
         }
 
         private static void filterTransactionsByVendor(String vendor) {
