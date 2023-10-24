@@ -71,6 +71,20 @@ public class FinancialTracker {
             // For example: 2023-04-29,13:45:00,Amazon,PAYMENT,29.99
             // After reading all the transactions, the file should be closed.
             // If any errors occur, an appropriate error message should be displayed.
+
+            ArrayList<Transaction> transactions = new ArrayList<>();
+            //create fileName for when it exists and another if it doesnt
+            File file = new File(fileName);
+            try {
+                if (!file.exists()) {
+                    file.createNewFile();
+                } else {
+                    BufferedReader reader = new BufferedReader(FileReader(file));
+                    
+
+                }
+
+            }
         }
 
         String dateInput;
@@ -100,17 +114,6 @@ public class FinancialTracker {
             System.out.println("Deposit was successfully added");
             System.out.println("Would that be all? (Y/N): ");
             String response = scanner.nextLine();
-
-            try {
-                (BufferedReader reader = new BufferedReader();
-                System.out.println("Please enter no to exit");
-                response = vendor.replace();
-                if (response.equalsIgnoreCase(String "N"))
-                    System.out.println("Goodbye for now! ");
-
-            }
-        catch ()
-
 
 
         }
