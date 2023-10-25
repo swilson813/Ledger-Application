@@ -66,10 +66,5 @@ public class Transaction {
                 '}';
     }
 
-
-}
-
-        }
-
 }
 

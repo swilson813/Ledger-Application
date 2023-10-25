@@ -80,7 +80,7 @@ public class FinancialTracker {
                     file.createNewFile();
                 } else {
                     BufferedReader reader = new BufferedReader(FileReader(file));
-                    
+
 
                 }
 
@@ -240,14 +240,20 @@ public class FinancialTracker {
         private static void filterTransactionsByDate(LocalDate startDate, LocalDate endDate) {
             // This method filters the transactions by date and prints a report to the console.
             // It takes two parameters: startDate and endDate, which represent the range of dates to filter by.
+                System.out.println("Report:");
+                for (Transaction transaction : transactions) {
+                    if (transaction.getDate().isAfter(startDate.minusDays(1)) && transaction.getDate().isBefore(endDate.plusDays(1))) {
+                        System.out.println(transaction);
+                        if (false)
+                            System.out.println("No responses matching these dates!" );
 
             //Returns a product whose price between start date and end date
-            List<Transaction> findByDateCreatedBetween(LocalDate startDate, LocalDate endDate);
+          //  List<Transaction> findByDateCreatedBetween(LocalDate startDate, LocalDate endDate);?????
 
             // The method loops through the transactions list and checks each transaction's date against the date range.
             // Transactions that fall within the date range are printed to the console.
             // If no transactions fall within the date range, the method prints a message indicating that there are no results.
-            System.out.println("Welcome to Month by Date!");
+
 
             //Prompt user for inputs
 
@@ -259,6 +265,9 @@ public class FinancialTracker {
             // The method loops through the transactions list and checks each transaction's vendor name against the specified vendor name.
             // Transactions with a matching vendor name are printed to the console.
             // If no transactions match the specified vendor name, the method prints a message indicating that there are no results.
+                        System.out.println("Reports: ");
+                        for ();
+                            if ()
 
     }
 }
