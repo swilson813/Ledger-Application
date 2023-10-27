@@ -53,7 +53,7 @@ Select the 'L' option to access the ledger. This will show you the overall repor
 # Thanks: 
 Special thanks to Raymond, Ceren & Jaheim for helping me connect the dots on this project.
 Raymond for his guidance and patience. He was only available for a limited amount of time & yet
-\made a huge impact. I also want to thank Jaheim & Ceren for their allowing me to bounce my ideas off of them
+made a huge impact. I also want to thank Jaheim & Ceren for their allowing me to bounce my ideas off of them
 and for also providing priceless feedback during this process.
 
 
