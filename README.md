@@ -2,19 +2,29 @@
 
 ### This is my Capstone1
 
-This project is an accounting ledger application that uses a ledger to track financial dates, time, description, amount and vendors
-entries. This application also makes it possible to input new payments and deposits.
+This application is an accounting application that securely allows users to track and filter through their financial activity. This would include payment and deposits.
 
 Interesting code:
 This code is interesting bc it mentally challenged me. And I thought it was cool to learn the code that apps we use everyday keep up with our transactions.
 ![Here](InterestingCode.PNG)
 
-#### Setup:
 
-- Open Git Bash (git clone)
+## Features:
+- Records Transactions
+- Records Payments
+- View Ledger of All Payments
+- View Ledger oof All Deposits
+- View ledger of All Transactions
+- Filter By Year to Date
+- Filter By Month To Date
+- Filter By Previous Month
+
+#### How To:
+
+- Clone or download this repository to your local device.
 ![Capture.PNG](..%2F..%2F..%2F..%2F..%2FUsers%2FStudent%2FDesktop%2FCapture.PNG)
-- Open the correct directory
-- Start application
+- Compile and run FinancialTracker.java
+- 
 
 -----------------------------------
 
@@ -36,10 +46,16 @@ Select the 'L' option to access the ledger. This will show you all of the overal
 ![Ledger.PNG](..%2F..%2F..%2F..%2F..%2FUsers%2FStudent%2FDesktop%2FLedger.PNG)
 
 
-Future work: The ability to show pending deposit (so you don't have to question whether your payment went through or not)
+## Future work: 
+- The ability to show pending deposits. 
+- And the ability to remove any incorrect transaction.
 
-Thanks: Raymond, Ceren, Jaheim, Youtube & 
-last but not least MYSELF!!!
+
+# Thanks: 
+Special thanks to Raymond, Ceren & Jaheim for helping me connect the dots on this project.
+Raymond for his guidance and patience. He was only available for a limited amount of time & yet
+\made a huge impact. I also want to thank Jaheim & Ceren for their allowing me to bounce my ideas off of them
+and for also providing priceless feedback dring this process.
 
 
 
