@@ -24,7 +24,6 @@ This code is interesting bc it mentally challenged me. And I thought it was cool
 - Clone or download this repository to your local device.
 ![Capture.PNG](InterestingCode.PNG)
 - Compile and run FinancialTracker.java
-- 
 
 -----------------------------------
 
