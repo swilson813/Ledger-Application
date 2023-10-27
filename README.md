@@ -2,7 +2,8 @@
 
 ### This is my Capstone1
 
-This application is an accounting application that securely allows users to track and filter through their financial activity. This would include payment and deposits.
+This application is an accounting application that securely allows users to track and filter 
+through their financial activity. This would include payment and deposits.
 
 Interesting code:
 This code is interesting bc it mentally challenged me. And I thought it was cool to learn the code that apps we use everyday keep up with our transactions.
@@ -22,7 +23,7 @@ This code is interesting bc it mentally challenged me. And I thought it was cool
 #### How To:
 
 - Clone or download this repository to your local device.
-![Capture.PNG](InterestingCode.PNG)
+![Here](Capture.PNG)
 - Compile and run FinancialTracker.java
 
 -----------------------------------

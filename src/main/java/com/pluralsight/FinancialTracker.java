@@ -64,6 +64,7 @@ public class FinancialTracker {
 
     public static void loadTransactions(String fileName) {
 
+        //Initialize
 
         File file = new File(fileName);
         try {
