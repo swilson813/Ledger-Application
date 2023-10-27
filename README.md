@@ -47,7 +47,7 @@ Select the 'L' option to access the ledger. This will show you the overall repor
 
 ## Future work: 
 - The ability to show pending deposits to allow me to broaden my categories.
-- And the ability to remove any incorrect transactions.
+- And animation to give better presentation of the application.
 
 
 # Thanks: 
